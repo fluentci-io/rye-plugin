@@ -17,8 +17,7 @@ pub fn setup_rye(version: String) -> Result<String, Error> {
     let stdout = dag()
         .pkgx()?
         .with_exec(vec![
-            "pkgx",
-            &format!("type rye > /dev/null || curl -sSf https://rye-up.com/get | RYE_INSTALL_OPTION=\"--yes\" bash"),
+            &format!("type rye > /dev/null || pkgx curl -sSf https://rye-up.com/get | RYE_INSTALL_OPTION=\"--yes\" bash"),
         ])?
         .stdout()?;
 
