@@ -62,7 +62,7 @@ Github Actions:
     working-directory: example
 - name: Show rye version
   run: |
-    export PATH=${HOME}/.rye/shims:${PATH}s
+    export PATH=${HOME}/.rye/shims:${PATH}
     type rye
     rye --version
 ```
