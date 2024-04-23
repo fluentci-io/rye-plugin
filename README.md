@@ -59,7 +59,6 @@ Github Actions:
     plugin: rye
     args: |
       setup
-    working-directory: example
 - name: Show rye version
   run: |
     export PATH=${HOME}/.rye/shims:${PATH}
