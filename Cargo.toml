@@ -1,16 +1,16 @@
 [package]
 authors = [
-  "Tsiry Sandratraina <tsiry.sndr@fluentci.io>"
+  "Tsiry Sandratraina <tsiry.sndr@fluentci.io>",
 ]
 description = "Set up your CI/CD Pipeline with a specific version of rye"
 edition = "2021"
 license = "MIT"
 name = "rye"
-version = "0.1.0"
+version = "0.1.1"
 
 [lib]
 crate-type = [
-  "cdylib"
+  "cdylib",
 ]
 
 [dependencies]
