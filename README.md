@@ -61,7 +61,6 @@ Github Actions:
       setup
 - name: Show rye version
   run: |
-    export PATH=${HOME}/.rye/shims:${PATH}
     type rye
     rye --version
 ```
