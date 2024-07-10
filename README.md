@@ -1,5 +1,6 @@
 # Rye Plugin
 
+[![fluentci pipeline](https://shield.fluentci.io/x/rye)](https://pkg.fluentci.io/rye)
 [![ci](https://github.com/fluentci-io/rye-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fluentci-io/rye-plugin/actions/workflows/ci.yml)
 
 This plugin sets up your CI/CD pipeline with a specific version of [rye](https://github.com/astral-sh/rye).
