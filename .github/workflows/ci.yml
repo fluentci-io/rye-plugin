@@ -22,6 +22,8 @@ jobs:
           args: |
             setup
           working-directory: example
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Show rye version
         run: |
           type rye
